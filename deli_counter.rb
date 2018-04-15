@@ -6,8 +6,8 @@ def line(katz_deli)
   else
     intro = "The line is currently: "
     katz_deli.each_with_index do |name, index|
-      intro << "#{index + 1}. #{name}"
-    end
+    intro << "#{index + 1}. #{name}"
+  end
 end
 
 def take_a_number(katz_deli, name)
