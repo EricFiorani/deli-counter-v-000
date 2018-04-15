@@ -3,8 +3,9 @@ katz_deli = []
 def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
-  elsif katz_deli == []
-
+  else
+    intro = "The line is currently: "
+    katz_deli.each_index {|value, index| "#{intro} + #{index.to_i +1} +#{value}"}
   end
 end
 
