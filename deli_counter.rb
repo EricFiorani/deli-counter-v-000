@@ -9,7 +9,7 @@ def line(katz_deli)
     intro << "#{index + 1}. #{name} "
   end
   end
-  puts intro
+  return intro
 end
 
 def take_a_number(katz_deli, name)
