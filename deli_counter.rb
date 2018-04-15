@@ -16,7 +16,7 @@ def now_serving(other_deli)
   if other_deli != []
       puts "Currently serving #{other_deli[0]}."
       other_deli.shift
-    else
+  else
       puts"There is nobody waiting to be served!"
     end
 end
