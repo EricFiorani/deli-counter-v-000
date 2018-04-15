@@ -7,6 +7,7 @@ def line(katz_deli)
     intro = "The line is currently: "
     katz_deli.each_index {|value, index| "#{intro} + #{index.to_i+1} +#{value}."}
   end
+  puts katz_deli
 end
 
 def take_a_number(katz_deli, name)
