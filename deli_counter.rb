@@ -6,7 +6,7 @@ def line(katz_deli)
   else
     intro = "The line is currently: "
     katz_deli.each_with_index do |name, index|
-    intro << "#{index + 1}. #{name[0..-2]} " + "#{name[-1]}"
+    intro << "#{index + 1}. #{name}"
   end
     puts intro
   end
